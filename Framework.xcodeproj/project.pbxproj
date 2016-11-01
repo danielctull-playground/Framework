@@ -258,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6301AD881DC89474006A1E7E /* Debug.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -266,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6301AD9A1DC89474006A1E7E /* Release.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -312,6 +314,7 @@
 				6301AD851DC8938B006A1E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
