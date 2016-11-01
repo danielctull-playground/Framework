@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6301AD801DC8938B006A1E7E /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6301AD7E1DC8938B006A1E7E /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6301ADB11DC89560006A1E7E /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301ADB01DC89560006A1E7E /* Foo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		6301ADAB1DC89474006A1E7E /* watchOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Extension.xcconfig"; sourceTree = "<group>"; };
 		6301ADAC1DC89474006A1E7E /* watchOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Framework.xcconfig"; sourceTree = "<group>"; };
 		6301ADAD1DC89474006A1E7E /* watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
+		6301ADB01DC89560006A1E7E /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				6301AD7E1DC8938B006A1E7E /* Framework.h */,
+				6301ADB01DC89560006A1E7E /* Foo.swift */,
 				6301AD7F1DC8938B006A1E7E /* Info.plist */,
 			);
 			path = Framework;
@@ -244,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6301ADB11DC89560006A1E7E /* Foo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
