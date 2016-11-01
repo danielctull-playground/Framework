@@ -1,9 +1,9 @@
 
 import Foundation
 
-class Foo {
+public class Foo {
 
-	func value() -> Int {
+	public func value() -> Int {
 		return 5
 	}
 }
