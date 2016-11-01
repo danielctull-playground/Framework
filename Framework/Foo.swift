@@ -3,7 +3,7 @@ import Foundation
 
 public class Foo {
 
-	public func value() -> Int {
+	public static func value() -> Int {
 		return 5
 	}
 }
